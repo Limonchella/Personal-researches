@@ -1,2 +1,4 @@
-# databasebasicwork-
-Course work 
+# Personal researches
+Course work - databases
+
+Weather forecast project
