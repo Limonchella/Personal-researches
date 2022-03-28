@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    font-family: 'Antonio', sans-serif;
+}
+body{
+    background: url(assets/Roses-iPhone-Wallpaper-Collection.jpg);
+    background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
+}
+.label{
+   border-radius: 30px;
+    width: 400px;
+    text-align: center;
+   padding: 8px;
+    margin: 0 auto;
+    color: rgba(23, 158, 11, 0.925);
+   background: rgba(209, 209, 209, 0.856);
+   margin-bottom: 50px;
+   font-weight: bold;
+   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.weather{
+    width: 275px;
+    margin: 0 auto;
+}
+
+.info{
+    width: 500px;
+    margin: 0 auto;
+}
+.ff{
+    padding-top: 200px;
+}
+.card-body{
+    background: rgba(204, 204, 204, 0.644);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

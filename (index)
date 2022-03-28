@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+    <title>Document</title>
+</head>
+<body>
+  <div class="ff">
+    <h1 class="label">Search weather</h1>
+  </div>
+    <div class="weather">
+    <div class="form-group row">
+        <div class="col-xs-2">
+          <input class="form-control" id="city_1" type="text">
+        </div>
+        <button type="button" class="btn btn-success btn-weather">Search</button>
+      </div>
+    </div>
+    <div class="info">
+    </div>
+    <script src="app/main.js" type="module"></script>
+</body>
+</html>
